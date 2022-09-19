@@ -1,0 +1,55 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --green-color: #54b192;
+  --green-l-color: #a4cec0;
+  --gray-color: #3f3d56;
+  --smooth: all .2s ease-in
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "roboto", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+button{
+  text-align: center;
+  color: #fff;
+  background-color: var(--gray-color);
+  padding: .8rem 2.5rem;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: var(--smooth);
+}
+
+button:hover {
+  background-color: var(--green-l-color);
+  transition: var(--smooth);
+}
+
+
+
+
+
